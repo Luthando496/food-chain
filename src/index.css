@@ -32,9 +32,20 @@
 	transform: translateX(-0%);
 }
 
+.bg-img{
+	background-color: #ebebeb;
+}
+
 
 .meat{
 	background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)), url('/assets/lily-banse--YHSwy6uqvk-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.form{
+	background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)), url('/assets/lum3n-Ngy0B2YWalk-unsplash.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

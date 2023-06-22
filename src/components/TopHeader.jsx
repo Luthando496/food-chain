@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TopHeader = ({header,title,paragraph}) => {
+const TopHeader = ({header,title,color}) => {
   return (
     <div className="text my-10">
           <h3 className="text-sm md:text-[15px] tracking-[4px] font-thin text-black text-center">{header}</h3>
