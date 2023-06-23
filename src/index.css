@@ -6,6 +6,11 @@
 @tailwind utilities;
 
 
+html {
+	scroll-behavior: smooth;
+}
+
+
 .btn{
 	position: relative;
 	z-index: 10;
@@ -27,6 +32,8 @@
 	background-color: rgb(14, 131, 241);
 	z-index: -1;
 }
+
+
 
 .btn:hover::before{
 	transform: translateX(-0%);

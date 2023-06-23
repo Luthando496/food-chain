@@ -6,7 +6,7 @@ import {BsFillCheckSquareFill} from 'react-icons/bs'
 const Tab = () => {
     const [tab,setTab] = useState(0)
   return (
-    <section className='w-full my-8'>
+    <section id='reservations' className='w-full my-8'>
         <div className="px-10 lg:px-16 grid grid-cols-1  lg:grid-cols-4 gap-3">
         
             <ul className=" w-full hidden lg:block col-span-1 flex-col border-r">

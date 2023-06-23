@@ -48,7 +48,7 @@ function App() {
         </div>
       </section>
 
-      <section className="w-full bg-gray-200/90 py-10">
+      <section id='home' className="w-full bg-gray-200/90 py-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-6">
 
       <div className="w-full">
@@ -79,7 +79,7 @@ function App() {
 
       </section>
 
-      <section className="mt-20 mb-20">
+      <section id='menu' className="mt-20 mb-20">
         <TopHeader title={'OUR MENU'} header={'TASTY AND CRUNCHY'} />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 px-14 my-10">
@@ -239,7 +239,7 @@ function App() {
 
       </section>
 
-      <section className="w-full py-20 form">
+      <section  id='contact' className="w-full py-20 form">
       <div className="text my-10">
           <h3 className="text-sm md:text-[15px] tracking-[4px] text-white font-thin text-whit text-center">TASTY AND CRUNCHY</h3>
           <h1 className="text-center tracking-[5px] text-xl md:text-2xl lg:text-6xl my-4 font-semibold text-white/70 font-roboto">RESERVATIONS</h1>
